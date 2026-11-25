@@ -5,7 +5,7 @@ function scr_player_grab()
 	
 	if grounded
 	{
-	    if (dir != xscale && sprite_index != spr_player_swingding)
+	    if (sprite_index != spr_player_swingding)
 	    {
 	        dir = xscale
 	        movespeed = 2
